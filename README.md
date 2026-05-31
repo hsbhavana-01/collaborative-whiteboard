@@ -1,12 +1,18 @@
-# Collaborative Whiteboard MVP
+# Collaborative Whiteboard
 
-Backend:
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+A real-time collaborative whiteboard built using React, FastAPI, and WebSockets.
 
-Frontend:
-Create a Vite React app and replace src/App.jsx with the provided file.
-Run:
-npm install
-npm run dev
+## Features
+
+- Real-time drawing
+- Multi-user collaboration
+- Live cursor tracking
+- Multiple pen colors
+- Clear board functionality
+
+## Tech Stack
+
+- React
+- Vite
+- FastAPI
+- WebSockets
